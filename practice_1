@@ -1,0 +1,11 @@
+import pandas as pd 
+
+df = pd.read_csv('data\ds_salaries.csv')
+
+df.head()
+df.info()
+
+df = pd.read_csv('data\ds_salaries.csv', header=None, skiprows=1)
+
+df.head()
+df.info()
